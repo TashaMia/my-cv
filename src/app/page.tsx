@@ -39,7 +39,7 @@ export default function Home() {
                 Jotai
               </div>
               <div className="flex justify-center items-center w-14 h-14 rounded-full bg-emerald-400 font-semibold p-4">
-                Redax
+                Redux
               </div>
               <div className="flex justify-center items-center w-14 h-14 rounded-full bg-yellow-500 font-semibold p-4">
                 SWR
@@ -139,12 +139,12 @@ export default function Home() {
         <div className="flex flex-col justify-between items-start rounded-xl p-4 text-gray-300  bg-stone-900 ">
           <h2 className="text-lg ">Обо мне</h2>
           <p className="text-sm">
-            Я занимаюсь веб разработкой 2 года. За это время изучила HTML, CSS,
-            JS, React, Redux, Next JS, Jotai, SWR. Мои плюсы, как специалиста -
-            это ответственность, усидчивость и любовь к разработке. Если
-            говорить о минусах - это неуверенность в своих действиях. Моя цель -
-            работать над развитием Vue.ru и развивать данный продукт. Буду рада
-            принести пользу этому проекту.{" "}
+            Я занимаюсь веб разработкой 2 года. За это время изучила: - HTML, -
+            CSS, - JS, - React, - Redux, - Next JS, - Jotai, - SWR -Tailwind
+            CSS. Мои плюсы, как специалиста - это ответственность, усидчивость и
+            любовь к разработке. Если говорить о минусах - это неуверенность в
+            своих решениях в коде, которая свойственна большинству молодых
+            специалистов. Буду рада принести пользу вашему проекту.{" "}
           </p>
         </div>
       </div>
