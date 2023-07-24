@@ -1,5 +1,5 @@
 "use client";
-import { MapPin, MapPinLine } from "@phosphor-icons/react";
+import { MapPin } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -98,15 +98,6 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="flex justify-end h-72 ">
-            <Image
-              src="/owner.jpg"
-              className="rounded-xl"
-              alt="owner CV"
-              width={260}
-              height={180}
-            ></Image>{" "}
-          </div>
 
           <div className="flex flex-col gap-4 lg:w-[60%]">
             <div className=" flex justify-between rounded-xl p-4 text-gray-300 bg-stone-900  items-center h-10">
@@ -137,15 +128,32 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-between items-start rounded-xl p-4 text-gray-300  bg-stone-900 ">
-          <h2 className="text-lg ">Обо мне</h2>
-          <p className="text-sm">
-            Я занимаюсь веб разработкой 2 года. За это время изучила: - HTML, -
-            CSS, - JS, - React, - Redux, - Next JS, - Jotai, - SWR -Tailwind
-            CSS. Мои плюсы, как специалиста - это ответственность, усидчивость и
-            любовь к разработке. Если говорить о минусах - это неуверенность в
-            своих решениях в коде, которая свойственна большинству молодых
-            специалистов. Буду рада принести пользу вашему проекту.{" "}
-          </p>
+          <h2 className="text-lg pb-4 ">Обо мне</h2>
+          <div className="text-sm">
+            <h2> Я занимаюсь веб разработкой 2 года. За это время изучила:</h2>
+            - HTML,
+            <br /> - CSS,
+            <br /> - JS,
+            <br /> - React,
+            <br /> - Redux,
+            <br /> - React Router
+            <br /> - Next JS,
+            <br /> - Jotai,
+            <br /> -SWR
+            <br /> -Tailwind CSS.
+            <br /> Английский - B1.
+            <br /> Мои плюсы, как специалиста - это ответственность,
+            аналитический склад ума, дисциплинированность, внимание к деталям,
+            нацеленность на результат, обучаемость.
+            <br />
+            <h2 className="text-sm 	 font-semibold pt-4"> Мои навыки:</h2>
+            - Попиксельная верстка по макетам;
+            <br /> - Кроссбраузерная верстка;
+            <br /> - Внедрение новых компонентов в существующие проекты;
+            <br /> - Рефакторинг написанного кода;
+            <br /> - Добавление необходимой логики элементам системы;
+            <br /> Буду рада принести пользу вашему проекту.{" "}
+          </div>
         </div>
       </div>
     </main>
